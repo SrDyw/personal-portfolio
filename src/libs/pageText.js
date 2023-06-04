@@ -9,7 +9,8 @@ const spanish_text = {
     "Programmer": "Soy Programador",
     "WelcomeInfo": '"Como programador estaré encatado de darle una solucion informatica sujeta a la peticion de usted como cliente"',
     "BtnExp" : "Expolar",
-    "BtnCV": "Ver CV"
+    "BtnCV": "Ver CV",
+    "AboutMe": "Ejerzo como programador desde finales de 2019 con varios proyectos desarrollados. Actualemnte  me encuentro estudiando en La Universidad de Ciencias Informáticas de Cuba para una  formación más completa y profesional como ingeniero informático."
 }
 
 const english_text = {
@@ -23,7 +24,8 @@ const english_text = {
     "Programmer": "I'm Programmer",
     "WelcomeInfo": '"As a programmer I will be happy to give you a computer solution subject to your request as a client"',
     "BtnExp" : "Explore",
-    "BtnCV": "See CV"
+    "BtnCV": "See CV",
+    "AboutMe": "I have been working as a programmer since late 2019, with several projects developed. Currently, I am studying at the University of Computer Sciences of Cuba for a more comprehensive and professional education as a computer engineer."
 }
 
 export const getText = (key, len) => {

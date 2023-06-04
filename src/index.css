@@ -109,6 +109,49 @@ section {
     border-radius: 50px;
 }
 
+
+._bar::before {
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    background-color: #000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%
+}
+
+
+._skill_card::before {
+    content: '';
+    width: 75px;
+    height: 120%;
+    position: absolute;
+    background: linear-gradient(#00ffff, #d400d4);
+    animation: skill_card 3s linear infinite;
+}
+
+._skill_card::after {
+    content: '';
+    width: 97%;
+    height: 97%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    border-radius: 0.8rem;
+}
+
+@keyframes skill_card {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
 .flex-center {
     display: flex;
     justify-content: center;

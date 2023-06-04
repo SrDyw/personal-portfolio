@@ -17,10 +17,10 @@ export default function Settings() {
 
     return (
         <>
-            <div className={`_settings_body ${active}`}>
+            <div className={`_settings_body ${active} z-50`}>
                 <div className="_sett_len text-xl text-white cursor-pointer" onClick={changeLengHander}>{len}</div>
             </div>
-            <div className={`_settings ${active}`} onClick={handleEvent}>
+            <div className={`_settings ${active} z-50`} onClick={handleEvent}>
                 <IoIosSettings />
             </div>
         </>
