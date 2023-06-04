@@ -1,14 +1,7 @@
 import React, { useContext } from "react";
 
-import {
-    BiBarChartAlt,
-    BiUser,
-} from "react-icons/bi";
-import {
-    BsBagFill,
-    BsHouseFill,
-} from "react-icons/bs";
-
+import { BiBarChartAlt, BiUser } from "react-icons/bi";
+import { BsBagFill, BsHouseFill } from "react-icons/bs";
 
 import { AppContext } from "./AppContext";
 import { getText } from "../libs/pageText";
@@ -21,26 +14,38 @@ const Nav = () => {
             <div className="flex justify-start relative self-center">
                 <ul className="w-full flex justify-evenly box-border">
                     <li className="nav__link_element flex justify-center">
-                        <BsHouseFill className=" self-center"></BsHouseFill>
-                        <a href="#home" className="">
+                        <a
+                            href="#home"
+                            className="p-2 flex justify-evenly gap-3"
+                        >
+                            <BsHouseFill className=" self-center"></BsHouseFill>
                             {getText("Home", len)}
                         </a>
                     </li>
                     <li className="nav__link_element flex justify-center">
-                        <BiUser className=" self-center"></BiUser>
-                        <a href="#about" className="">
+                        <a
+                            href="#about"
+                            className="p-2 flex justify-evenly gap-3"
+                        >
+                            <BiUser className=" self-center"></BiUser>
                             {getText("About", len)}
                         </a>
                     </li>
                     <li className="nav__link_element flex justify-center">
-                        <BiBarChartAlt className=" self-center"></BiBarChartAlt>
-                        <a href="#skills" className="">
+                        <a
+                            href="#skills"
+                            className="p-2 flex justify-evenly gap-3"
+                        >
+                            <BiBarChartAlt className=" self-center"></BiBarChartAlt>
                             {getText("Skills", len)}
                         </a>
                     </li>
                     <li className="nav__link_element flex justify-center">
-                        <BsBagFill className=" self-center"></BsBagFill>
-                        <a href="#project" className="">
+                        <a
+                            href="#project"
+                            className="p-2 flex justify-evenly gap-3"
+                        >
+                            <BsBagFill className=" self-center"></BsBagFill>
                             {getText("Projects", len)}
                         </a>
                     </li>

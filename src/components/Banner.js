@@ -29,7 +29,7 @@ const Banner = () => {
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.7 }}
             ></motion.div> */}
-            <div className="_background w-full h-full absolute lg:left-[-150px] left-0 top-0 bg-image"></div>
+            <div className="_background w-full h-full absolute left-0 top-0 bg-image"></div>
 
             <motion.div
                 className="_banner_info container w-full h-full flex justify-end items-center"
@@ -65,10 +65,9 @@ const Banner = () => {
                             {getText("BtnExp", len)}
                         </a>
                     </div>
-
                     {/* BACKGROUND DECORATION */}
-                    <div className="w-[1200px] h-[1200px] bg-rose-300 absolute right-0 top-[0] translate-y-[-50%] translate-x-[50%] rounded-full blur-3xl opacity-[0.02] -z-50"></div>
-                    <div className="w-[2000px] h-[2000px] bg-rose-700 absolute right-0 top-[0] translate-y-[-50%]  translate-x-[50%] rounded-full blur-3xl opacity-[0.05] -z-50"></div>
+                    {/* <div className="w-[1200px] h-[1200px] bg-rose-300 absolute right-0 top-[0] translate-y-[-50%] translate-x-[50%] rounded-full blur-3xl opacity-[0.02] -z-50"></div>
+                    
                     {/* BACKGROUND DECORATION */}
                 </div>
             </motion.div>

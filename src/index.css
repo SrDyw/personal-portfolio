@@ -12,12 +12,12 @@ html {
 }
 
 .bg-image {
-    background: url("./assets/banner_background.png");
+    background: linear-gradient(45deg, #00000000, #ff009585), url("./assets/banner_background.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    opacity: 0.05;
+    opacity: 0.1;
 }
 
 section {
@@ -27,7 +27,6 @@ section {
 
 .nav__link_element {
     color: #c281ff;
-    padding: 5px 10px;
     border-radius: 10px;
     font-weight: bold;
     gap: 5px;
