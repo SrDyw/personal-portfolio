@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #04000c;
+    max-height: 100vh;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bg-image {
+    background: url("./assets/banner_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.05;
+}
+
+section {
+    min-height: 100vh;
+    max-width: 100vw;
+}
+
+.nav__link_element {
+    color: #c281ff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    gap: 5px;
+}
+
+.nav__link_element:hover {
+    transition: 0.2s;
+    background-color: white;
+}
+
+._button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: linear-gradient(45deg, #640481, #da105d);
+    font-size: 1.25rem;
+    transition: 0.2s;
+}
+
+._button:hover {
+    background: linear-gradient(45deg, #f8498c, #9c25c0);
+    transform: scale(1.1);
+}
+
+._settings {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #640481;
+    border-radius: 50%;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+    z-index: 100;
+}
+
+._settings:hover {
+    transform: scale(1.15);
+}
+
+._settings_body {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+
+    bottom: 10px;
+    right: 10px;
+    background-color: #640481;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-top: 10px;
+    transition: 0.2s;
+}
+
+._settings_body.active {
+    height: 100px;
+}
+/* 
+._image_profile {
+    transform: skew(-5deg);
+} */
+
+._underline::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120%;
+    height: 3px;
+    background:linear-gradient(45deg, #da105d, #640481);
+    border-radius: 50px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:960px) {
+    ._about {
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media (min-width:960px) {
+    ._about {
+        grid-template-columns: 0.75fr 1fr;
+    }
+}
