@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.c18f656a.css",
-    "main.js": "/personal-portfolio/static/js/main.ea4123c0.js",
+    "main.css": "/personal-portfolio/static/css/main.fb6f89bf.css",
+    "main.js": "/personal-portfolio/static/js/main.f2d31e37.js",
+    "static/media/skills_back.svg": "/personal-portfolio/static/media/skills_back.c7c12014fa2bafc57c36044e460ef21e.svg",
     "static/media/banner_background.png": "/personal-portfolio/static/media/banner_background.6f0a777a70053444e292.png",
     "static/media/dayniel.png": "/personal-portfolio/static/media/dayniel.d31739c40a598aaf674b.png",
+    "static/media/dyw_uni.jpg": "/personal-portfolio/static/media/dyw_uni.41d5cd379c983dc48fb6.jpg",
+    "static/media/mk_web.jpg": "/personal-portfolio/static/media/mk_web.cbf30ba7ef88d756c039.jpg",
+    "static/media/honosume.jpg": "/personal-portfolio/static/media/honosume.a208b2dd0ed6c8a7131a.jpg",
+    "static/media/portfolio.jpg": "/personal-portfolio/static/media/portfolio.afa8e1e5fb6fff1367c9.jpg",
+    "static/media/arthur.webp": "/personal-portfolio/static/media/arthur.830e96f3d72c3bfc6f3d.webp",
     "index.html": "/personal-portfolio/index.html",
-    "main.c18f656a.css.map": "/personal-portfolio/static/css/main.c18f656a.css.map",
-    "main.ea4123c0.js.map": "/personal-portfolio/static/js/main.ea4123c0.js.map"
+    "main.fb6f89bf.css.map": "/personal-portfolio/static/css/main.fb6f89bf.css.map",
+    "main.f2d31e37.js.map": "/personal-portfolio/static/js/main.f2d31e37.js.map"
   },
   "entrypoints": [
-    "static/css/main.c18f656a.css",
-    "static/js/main.ea4123c0.js"
+    "static/css/main.fb6f89bf.css",
+    "static/js/main.f2d31e37.js"
   ]
 }
