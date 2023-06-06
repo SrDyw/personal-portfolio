@@ -42,7 +42,7 @@ const Nav = () => {
                     </li>
                     <li className="nav__link_element flex justify-center">
                         <a
-                            href="#project"
+                            href="#projects"
                             className="p-2 flex justify-evenly gap-3"
                         >
                             <BsBagFill className=" self-center"></BsBagFill>

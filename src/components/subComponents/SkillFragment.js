@@ -5,15 +5,15 @@ export default function SkillFragment({
     s_name,
     s_value,
 }) {
-    const secondary_color = '#00ffff';
-    const text_color = 'text-[#00ffff]';
+    const secondary_color = '#ff2cc0';
+    const text_color = 'text-[#fff]';
     const degress = 360 * s_value;
     const style = {
         background: `conic-gradient(${secondary_color} ${degress}deg, #00000000 0deg)`,
     };
 
     return (
-        <div className="_skill_card relative w-[170px] flex flex-col gap-10 justify-evenly items-center bg-[#000] m-4 py-5 rounded-lg overflow-hidden">
+        <div className="text-[#ff2cc0] _skill_card relative w-[170px] flex flex-col gap-10 justify-evenly items-center bg-[#000] m-4 py-5 rounded-lg overflow-hidden">
             <h2 className={`text-2xl font-extrabold ${text_color} z-20`}>
                 {s_name}
             </h2>
