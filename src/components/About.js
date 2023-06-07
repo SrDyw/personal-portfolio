@@ -30,7 +30,7 @@ export default function About() {
             </div>
 
             <motion.div
-                className={`_description flex flex-col mt-5 gap-5 lg:justify-center lg:max-w-[700px] ${text_main_color}`}
+                className={`_description flex flex-col mt-5 mb-16 gap-5 lg:justify-center lg:max-w-[700px] ${text_main_color}`}
                 variants={fadeIn("up", 0.3)}
                 initial="hidden"
                 whileInView={"show"}
@@ -48,6 +48,8 @@ export default function About() {
                 <div className="container text-xl text-justify flex flex-col gap-5">
                     <p>
                         {getText("AboutMe", len)}
+                        <br></br>
+                        {getText("AboutMe2", len)}
                     </p>
                 </div>
             </motion.div>

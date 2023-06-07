@@ -5,7 +5,7 @@ import { getText } from "../libs/pageText";
 import ProjectFragment from "./subComponents/ProjectFragment";
 
 import ImgHonsume from "../assets/honosume.jpg";
-import ImgArthur from "../assets/arthur.webp";
+import ImgCurr from "../assets/curr.png";
 import ImgDywUni from "../assets/dyw_uni.jpg";
 import ImgPortfolio from "../assets/portfolio.jpg";
 import ImgMkWeb from "../assets/mk_web.jpg";
@@ -41,8 +41,8 @@ export default function Projects() {
                         <ProjectFragment
                             image={ImgHonsume}
                             title="Honsume, La Leyenda"
-                            url={"#"}
-                            info={"Juego mas reciente desarrollado en unity"}
+                            url={"https://srdyw.itch.io/la-leyenda-de-honosume"}
+                            info={getText('Honosume', len)}
                             icons={["unity", "csharp"]}
                         />
                     </motion.div>
@@ -55,9 +55,9 @@ export default function Projects() {
                     >
                         <ProjectFragment
                             image={ImgDywUni}
-                            url={"#"}
+                            url={"https://srdyw.github.io/dyw-universe/"}
                             title="Dyw Universe"
-                            info={"Portal web donde almaceno todos mis juegos"}
+                            info={getText('DywUni', len)}
                             icons={["html", "js", "css"]}
                         />
                     </motion.div>
@@ -72,9 +72,24 @@ export default function Projects() {
                     >
                         <ProjectFragment
                             image={ImgPortfolio}
-                            url={"#"}
+                            url={"https://srdyw.github.io/personal-portfolio/"}
                             title="Portfolio Personal"
-                            info={"Portal web donde muestro mis proyectos"}
+                            info={getText('PersonalPort', len)}
+                            icons={["html", "js", "css", "react"]}
+                        />
+                    </motion.div>
+                    <motion.div
+                        className=""
+                        variants={fadeIn("up")}
+                        initial="hidden"
+                        whileInView={"show"}
+                        viewport={{ once: false, amount: 0 }}
+                    >
+                        <ProjectFragment
+                            image={ImgCurr}
+                            url={"https://srdyw.github.io/dayniel-cv/"}
+                            title="Curriculo Personal"
+                            info={getText('PersonalPort', len)}
                             icons={["html", "js", "css", "react"]}
                         />
                     </motion.div>
@@ -87,9 +102,9 @@ export default function Projects() {
                     >
                         <ProjectFragment
                             image={ImgMkWeb}
-                            url={"#"}
+                            url={"https://srdyw.github.io/mk-web/"}
                             title="Mirkastillito Web"
-                            info={"Portal de negocio para hostal Mirkastillito"}
+                            info={getText('Mirkastillito', len)}
                             icons={["html", "js", "css"]}
                         />
                     </motion.div>
